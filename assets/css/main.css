@@ -1851,15 +1851,15 @@ input, select, textarea {
 				top: 0;
 				width: 50%;
 				height: 100%;
-				background: #152E33;
+				background: #f1f1f1;
 				overflow: hidden;
 			}
 
 				.box.style1 .image img {
 					position: absolute;
-					top: 0;
-					height: 100%;
-					width: auto;
+					top: 12%;
+					height: auto;
+					width: 100%;
 				}
 
 			.box.style1 .inner > :last-child {
@@ -1930,7 +1930,7 @@ input, select, textarea {
 						content: '';
 						display: block;
 						position: absolute;
-						top: 50%;
+						top: 100%;
 						left: 20px;
 						width: calc(100% - 40px);
 						border-bottom: solid 1px #fff;
@@ -1939,7 +1939,7 @@ input, select, textarea {
 				.box.style2 .inner .image {
 					position: relative;
 					z-index: 1;
-					padding: 20px;
+					padding: 50px;
 				}
 
 		.box.style3 {
